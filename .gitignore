@@ -211,8 +211,14 @@ tempCodeRunnerFile.py
 
 # Marimo
 marimo/_static/
+
 marimo/_lsp/
 __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Coze智能体密钥缓存
+*.token
+api_key.txt
+__coze_cache__/
